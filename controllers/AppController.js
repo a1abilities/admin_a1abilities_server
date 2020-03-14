@@ -128,89 +128,10 @@ const changeState = async function (req, res, next) {
 
 
 
-
-// const getServicesList = async function (req, res, next) {
-//     try {
-//         const result = await new AppModel({}).getServicesList();
-//         res.send({ serviceList: result });
-//     } catch (err) {
-//         next(err);
-//     }
-// }
-
-
-
-// const getWhyusList = async function (req, res, next) {
-//     try {
-//         const result = await new AppModel({}).getWhyusList();
-//         res.send({ whyUsList: result });
-//     } catch (err) {
-//         next(err);
-//     }
-// }
-
-
-// const getGoalsList = async function (req, res, next) {
-//     try {
-//         const result = await new AppModel({}).getGoalsList();
-//         res.send({ goalsList: result });
-//     } catch (err) {
-//         next(err);
-//     }
-// }
-
-// const getTechnologyList = async function (req, res, next) {
-//     try {
-//         const result = await new AppModel({}).getTechnologyList();
-//         res.send({ technologyList: result });
-//     } catch (err) {
-//         next(err);
-//     }
-// }
-
-// const getPartnersList = async function (req, res, next) {
-//     try {
-//         const result = await new AppModel({}).getPartnersList();
-//         res.send({ partnersList: result });
-//     } catch (err) {
-//         next(err);
-//     }
-// }
-
-
-// const getPortfolioList = async function (req, res, next) {
-//     try {
-//         const result = await new AppModel({}).getPortfolioList();
-//         res.send({ portfolioList: result });
-//     } catch (err) {
-//         next(err);
-//     }
-// }
-
-// const getAboutList = async function (req, res, next) {
-//     try {
-//         const result = await new AppModel({}).getAboutList();
-//         res.send({ aboutList: result });
-//     } catch (err) {
-//         next(err);
-//     }
-// }
-
-
-
-
 module.exports = {    
     addUpdateFormContent: addUpdateFormContent,
     getTabRelatedList: getTabRelatedList,
     getContactList:getContactList,
     login: login,
     changeState: changeState,
-
-    // getServicesList: getServicesList,
-    // getWhyusList: getWhyusList,
-    // getAboutList: getAboutList,    
-    // getGoalsList:getGoalsList,
-    // getTechnologyList:getTechnologyList,
-    // getPartnersList:getPartnersList,
-    // getPortfolioList:getPortfolioList,
 };
