@@ -22,16 +22,6 @@ Routing.route("/changeState").post(AppController.changeState);
 Routing.route("/getContactList").get(AppController.getContactList);
 Routing.route("/login").post(AppController.login);
 
-// Routing.route("/getServicesList").post(AppController.getServicesList);
-// Routing.route("/getServicesList").get(AppController.getServicesList);
-// Routing.route("/getWhyusList").get(AppController.getWhyusList);
-// Routing.route("/getAboutList").get(AppController.getAboutList);
-// Routing.route("/getGoalsList").get(AppController.getGoalsList);
-// Routing.route("/getTechnologyList").get(AppController.getTechnologyList);
-// Routing.route("/getPartnersList").get(AppController.getPartnersList);
-// Routing.route("/getPortfolioList").get(AppController.getPortfolioList);
-
-
 
 
 
