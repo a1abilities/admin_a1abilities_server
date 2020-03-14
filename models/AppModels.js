@@ -168,6 +168,7 @@ AppModel.prototype.login = function () {
   return new Promise(function (resolve, reject) {
     connection.getConnection(function (error, connection) {
       if (error) {
+        console.log('login throw error')
         throw error;
       }
 
